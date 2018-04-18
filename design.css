@@ -21,7 +21,7 @@ padding-top: 20px;}
 }
 .container{
     max-width:600px;
-    margin:0 auto;
+    margin:20px auto;
 }
 #stripe{
     background-color:white;
@@ -51,10 +51,13 @@ button{
     letter-spacing: 1.5px;
     font-size: inherit;
     transition: all 0.25s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transition:all 0.25s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -moz-transition:all 0.25s cubic-bezier(0.755, 0.05, 0.855, 0.06);
 }
 #message{
     display: inline-block; 
     width:22%;
+    color: steelblue;
 }
 button:hover{
     color:white;
