@@ -57,6 +57,8 @@ var resetButton=document.querySelector("#reset");
          squares[i].style.backgroundColor=colors[i];
      }
      h1.style.backgroundColor="steelblue";
+     messageDisplay.textContent="";
+     this.textContent="new colors";
  })
 for (var i=0;i<squares.length;i++){
     // add initial colors
