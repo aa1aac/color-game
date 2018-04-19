@@ -53,6 +53,7 @@ button{
     transition: all 0.25s cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transition:all 0.25s cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -moz-transition:all 0.25s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    outline: none;
 }
 #message{
     display: inline-block; 
